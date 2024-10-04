@@ -9,12 +9,12 @@ export default function TabsLayout() {
       screenOptions={{
         headerShown: false,
         tabBarShowLabel: false,
-        tabBarActiveTintColor: 'teal',
+        tabBarActiveTintColor: 'red',
         tabBarInActiveTintColor: 'black',
       }}
     >
       <Tabs.Screen 
-        name="index"
+        name="home"
         options={{
           title: "Home",
           tabBarIcon: ({color}) => <AntDesign name="home" size={20} color={color} />
